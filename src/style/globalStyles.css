@@ -1,0 +1,10 @@
+@import 'modern-normalize/modern-normalize.css';
+@import 'css-homogenizer/reset.css';
+@import 'css-homogenizer/opinionated-base.css';
+@import 'tailwindcss/base.css';
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
+
+body {
+  @apply bg-background text-gray-200;
+}

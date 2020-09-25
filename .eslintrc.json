@@ -1,0 +1,67 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/@typescript-eslint"
+  ],
+  "env": {
+    "browser": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+
+  "rules": {
+    "prettier/prettier": "error",
+    "sort-imports": "off",
+    "import/order": "off",
+    "import/no-unresolved": "error",
+    "jsx-a11y/href-no-hash": ["off"],
+    "jsx-a11y/anchor-is-valid": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "react/jsx-filename-extension": [
+      "off",
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
+    "simple-import-sort/sort": "error",
+
+    // Using a type system makes it safe enough to spread props
+    "react/jsx-props-no-spreading": "off",
+
+    //temp fix
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/naming-convention": "off"
+  },
+  "plugins": ["simple-import-sort", "@typescript-eslint", "import", "prettier"],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      // use <root>/tsconfig.json
+      "typescript": {
+        "alwaysTryTypes": true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+        "project": "./" // use <root>/path/to/folder/tsconfig.json
+      }
+    }
+  },
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": { "@typescript-eslint/no-var-requires": "off" }
+    }
+  ]
+}

@@ -5,6 +5,11 @@
 @import 'tailwindcss/components.css';
 @import 'tailwindcss/utilities.css';
 
+@font-face {
+  font-family: 'schdesign';
+  src: local('schdesign'), url('../../public/fonts/schdesign.ttf') format('ttf');
+}
+
 body {
   @apply bg-background text-gray-200;
 }

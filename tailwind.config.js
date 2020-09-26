@@ -18,6 +18,11 @@ module.exports = {
     extend: {
       colors: {
         background: '#222222',
+        dark: '#181818',
+        schdesign: '#f8485e',
+      },
+      fontFamily: {
+        schdesign: ['schdesign'],
       },
     },
   },

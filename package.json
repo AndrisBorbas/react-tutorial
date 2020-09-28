@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build && next export"
   },
   "dependencies": {
     "babel-plugin-optimize-clsx": "^2.6.1",
@@ -16,6 +16,7 @@
     "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
     "tailwindcss": "^1.8.10",
     "typescript": "^4.0.3"
   },

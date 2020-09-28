@@ -1,9 +1,13 @@
 react-tutorial
 
+### Note
+
+A somewhat nicer and more detailed project is available in the tutorial branch. Also preview available here: https://elastic-pasteur-ba13aa.netlify.app/
+
 # 🚀 Get started
 
 1. Install [VSCode][code], [NodeJS 14+][node] and clone this repo.
-1. Open the cloned repo with VSCode and __install all the recommended extensions__ and run `npm install`
+1. Open the cloned repo with VSCode and **install all the recommended extensions** and run `npm install`
 1. Start a dev server with `npm run dev` and open [localhost:3000](https://localhost:3000)
 
 ## Useful links

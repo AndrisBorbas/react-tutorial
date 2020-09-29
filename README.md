@@ -2,7 +2,9 @@ react-tutorial
 
 ### Note
 
-A somewhat nicer and more detailed project is available in the tutorial branch. Also preview available here: https://elastic-pasteur-ba13aa.netlify.app/
+A somewhat nicer and more detailed project is available in the tutorial branch. Also preview available here: https://elastic-pasteur-ba13aa.netlify.app/ 
+
+Workshop video: https://drive.google.com/file/d/18s0Ls1j2LyhM49n8IzQ9LouJL1y4MCKn/view?usp=sharing
 
 # 🚀 Get started
 
